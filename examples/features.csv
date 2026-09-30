@@ -1,0 +1,13 @@
+id,name,days,depends_on,core,value
+auth,Sign up and sign in,3,,yes,
+profile,Business profile,2,auth,yes,
+booking,Book an appointment,5,profile;calendar,yes,
+calendar,Calendar of free slots,4,auth,,
+reminders,Email and SMS reminders,3,booking,,4
+payments,Card payments at booking,5,booking,,5
+reviews,Reviews after a visit,3,booking,,2
+staff,Several staff calendars,4,calendar,,3
+reports,Revenue and no-show reports,9,payments,,3
+admin,Admin area,3,auth,,
+widget,Booking widget for the customer's site,4,booking,,4
+mobile,Mobile app for customers,24,booking,,4

@@ -1,0 +1,6 @@
+# Every change is reviewed by a maintainer.
+* @innerluxesdev
+
+# The planning rules and the input checks decide every line of the plan; changes need extra care.
+/src/plan.js @innerluxesdev
+/src/input.js @innerluxesdev
